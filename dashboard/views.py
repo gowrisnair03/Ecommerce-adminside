@@ -18,5 +18,8 @@ def profile(request):
 
 def charts(request):
     return render(request,"charts.html")
-        
+
+def tables(request):
+    return render(request,"tables.html")    
+
 
