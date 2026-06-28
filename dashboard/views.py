@@ -16,3 +16,7 @@ def adduser(request):
 def profile(request):
     return render(request,"profile.html")     
 
+def charts(request):
+    return render(request,"charts.html")
+        
+
